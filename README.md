@@ -6,11 +6,30 @@ This is a group activity for at least 3 students:
 
 * Complete the projects together with your group
 * Create a voting dApp to cast votes, delegate and query results on chain
-* Request voting tokens to be minted using the API
+* Request voting tokens to be minted using the API ✅
 * (bonus) Store a list of recent votes in the backend and display that on frontend
 * (bonus) Use an oracle to fetch off-chain data
   * Use an oracle to fetch information from a data source of your preference
   * Use the data fetched to create the proposals in the constructor of the ballot
+
+### How to deploy:
+1. yarn compile
+2. yarn deploy --network sepolia
+3. make sure to add PK and Alchmey on hardhat .env
+
+```bash
+❯ yarn deploy --network sepolia
+Nothing to compile
+No need to generate any newer typings.
+deploying "YourContract" (tx: 0x071c485c0b5db17c2a1ac4f74cdb5b40e9631ec48b437ebf202a8a061b21f28d)...: deployed at 0x560c621b2EDb46ded08BB562071A7b48dBc22b7C with 533171 gas
+👋 Initial greeting: Building Unstoppable Apps!!!
+deploying "HelloWorld" (tx: 0xc03995888948b88249fb0496a1a5dc47b378d616335f6c6ec51107e95490e07a)...: deployed at 0x5d94D5eE053a3aF12fcB508Ce9Fa8d8f887Cd92A with 283933 gas
+deploying "MyToken" (tx: 0xe73a793612fc16b769b3980c056092e6f01017ab749868204ed1d5405e4e8732)...: deployed at 0x66F13e1132ddFB496764d2D3e992b0BFD7577a3B with 2069155 gas
+👋 Token Name: "MyToken" Symbol: "MTK"
+deploying "TokenizedBallot" (tx: 0x6514969e9eba653eb80502f9edfbfcf0c4087cf84a38f86ad645703dca22ee8b)...: deployed at 0x2Aaf4e167bd5e69215Fb52E201A7C611490C07Ca with 470119 gas
+👋 Ballot uses tokenContract @ 0x66F13e1132ddFB496764d2D3e992b0BFD7577a3B
+📝 Updated TypeScript contract definition file on ../nextjs/contracts/deployedContracts.ts
+```
 
 ### Voting dApp integration guidelines
 
