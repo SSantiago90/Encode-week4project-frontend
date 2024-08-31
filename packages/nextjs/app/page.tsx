@@ -11,8 +11,9 @@ function WalletInfo() {
   if (address)
     return (
       <div>
-        <p>Your account address is {address}</p>
-        <p>Connected to the network {chain?.name}</p>
+        <h1>Wallet Info</h1>
+        <p>Your wallet address is {address}</p>
+        <p>Connected to the {chain?.name} network</p>
         <WalletAction></WalletAction>
         <WalletBalance address={address as `0x${string}`}></WalletBalance>
         <TokenInfo address={address as `0x${string}`}></TokenInfo>
@@ -44,6 +45,7 @@ function WalletAction() {
   return (
     <div className="card w-96 bg-primary text-primary-content mt-4">
       <div className="card-body">
+        <h1>Wallet Actions</h1>
         <h2 className="card-title">Testing signatures</h2>
         <div className="form-control w-full max-w-xs my-4">
           <label className="label">
@@ -85,6 +87,7 @@ function WalletBalance(params: { address: `0x${string}` }) {
   return (
     <div className="card w-96 bg-primary text-primary-content mt-4">
       <div className="card-body">
+        <h1>Wallet Balance</h1>
         <h2 className="card-title">Testing useBalance wagmi hook</h2>
         Balance: {data?.formatted} {data?.symbol}
       </div>
@@ -96,6 +99,7 @@ function TokenInfo(params: { address: `0x${string}` }) {
   return (
     <div className="card w-96 bg-primary text-primary-content mt-4">
       <div className="card-body">
+        <h1>Token Info</h1>
         <h2 className="card-title">Testing useReadContract wagmi hook</h2>
         <TokenName></TokenName>
         <TokenBalance address={params.address}></TokenBalance>
@@ -165,7 +169,7 @@ function TokenBalance(params: { address: `0x${string}` }) {
 
   if (isLoading) return <div>Fetching balance…</div>;
   if (isError) return <div>Error fetching balance</div>;
-  return <div>Balance: {balance}</div>;
+  return <div>Token Balance: {balance}</div>;
 }
 
 function RandomWord() {
@@ -187,6 +191,7 @@ function RandomWord() {
   return (
     <div className="card w-96 bg-primary text-primary-content mt-4">
       <div className="card-body">
+        <h1>Random Word</h1>
         <h2 className="card-title">Testing useState and useEffect from React library</h2>
         <h1>
           Name: {data.name.title} {data.name.first} {data.name.last}
@@ -271,6 +276,7 @@ function ApiData(params: { address: `0x${string}` }) {
 }
 
 const Home: NextPage = () => {
+  const { address } = useAccount();
   return (
     <>
       <div className="flex items-center flex-col flex-grow pt-10">
@@ -287,6 +293,7 @@ const Home: NextPage = () => {
           </p>
           <PageBody></PageBody>
           <RandomWord></RandomWord>
+          <ApiData address={address as `0x${string}`}></ApiData>
         </div>
       </div>
     </>
@@ -296,7 +303,7 @@ const Home: NextPage = () => {
 function PageBody() {
   return (
     <>
-      <p className="text-center text-lg">Here we are!</p>
+      <p className="text-center text-lg">Welcome to the Jungle!</p>
       <WalletInfo></WalletInfo>
     </>
   );
