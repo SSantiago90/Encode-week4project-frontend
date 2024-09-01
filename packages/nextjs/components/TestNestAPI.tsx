@@ -18,13 +18,8 @@ export default function TestNestAPI() {
 
   return (
     <>
-      <h1 className="text-2xl font-semibold opacity-50 pt-3 uppercase text-center">Test Backend Connection</h1>
-      <div className="card w-96 bg-primary text-primary-content mt-4">
-        <div className="card-body">
-          <h2 className="card-title">Testing NEST Api</h2>
-          {isLoading ? <p>Loading . . . </p> : <p>API Response: {apiResponse}</p>}
-        </div>
-      </div>
+      <h1 className="text-2xl font-semibold opacity-50 pt-3 uppercase text-left">Backend API Connection Status:</h1>
+      {isLoading ? <p>Loading . . . </p> : <p>{apiResponse}</p>}
     </>
   );
 }
