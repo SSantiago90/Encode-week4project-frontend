@@ -7,7 +7,7 @@ import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
 const deployedContracts = {
   31337: {
     HelloWorld: {
-      address: "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      address: "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
       abi: [
         {
           inputs: [],
@@ -44,7 +44,7 @@ const deployedContracts = {
       inheritedFunctions: {},
     },
     MyToken: {
-      address: "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      address: "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
       abi: [
         {
           inputs: [],
@@ -1159,29 +1159,48 @@ const deployedContracts = {
         },
       ],
       inheritedFunctions: {
-        allowance: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        approve: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        balanceOf: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        decimals: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        allowance:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        approve:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        balanceOf:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        decimals:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
         name: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
         symbol: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        totalSupply: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        transfer: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        transferFrom: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        DOMAIN_SEPARATOR: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol",
-        eip712Domain: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        totalSupply:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        transfer:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        transferFrom:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        DOMAIN_SEPARATOR:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol",
+        eip712Domain:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
         nonces: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        permit: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol",
-        CLOCK_MODE: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        checkpoints: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        permit:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol",
+        CLOCK_MODE:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        checkpoints:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
         clock: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        delegate: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        delegateBySig: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        delegates: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        getPastTotalSupply: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        getPastVotes: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        getVotes: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        numCheckpoints: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        delegate:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        delegateBySig:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        delegates:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        getPastTotalSupply:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        getPastVotes:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        getVotes:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        numCheckpoints:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
         DEFAULT_ADMIN_ROLE: "@openzeppelin/contracts/access/AccessControl.sol",
         getRoleAdmin: "@openzeppelin/contracts/access/AccessControl.sol",
         grantRole: "@openzeppelin/contracts/access/AccessControl.sol",
@@ -1192,7 +1211,7 @@ const deployedContracts = {
       },
     },
     TokenizedBallot: {
-      address: "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      address: "0x0165878A594ca255338adfa4d48449f69242Eb8F",
       abi: [
         {
           inputs: [
@@ -1351,7 +1370,7 @@ const deployedContracts = {
       inheritedFunctions: {},
     },
     YourContract: {
-      address: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      address: "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
       abi: [
         {
           inputs: [
@@ -1496,7 +1515,7 @@ const deployedContracts = {
   },
   11155111: {
     HelloWorld: {
-      address: "0x5d94D5eE053a3aF12fcB508Ce9Fa8d8f887Cd92A",
+      address: "0x949cB770A424D63E4dB702b8dB1290B91f3a20B4",
       abi: [
         {
           inputs: [],
@@ -1533,7 +1552,7 @@ const deployedContracts = {
       inheritedFunctions: {},
     },
     MyToken: {
-      address: "0x66F13e1132ddFB496764d2D3e992b0BFD7577a3B",
+      address: "0x672098733426BA420EB39B0290e2B2555bb59403",
       abi: [
         {
           inputs: [],
@@ -2648,29 +2667,48 @@ const deployedContracts = {
         },
       ],
       inheritedFunctions: {
-        allowance: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        approve: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        balanceOf: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        decimals: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        allowance:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        approve:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        balanceOf:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        decimals:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
         name: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
         symbol: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        totalSupply: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        transfer: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        transferFrom: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        DOMAIN_SEPARATOR: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol",
-        eip712Domain: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        totalSupply:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        transfer:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        transferFrom:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        DOMAIN_SEPARATOR:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol",
+        eip712Domain:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
         nonces: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        permit: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol",
-        CLOCK_MODE: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        checkpoints: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        permit:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol",
+        CLOCK_MODE:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        checkpoints:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
         clock: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        delegate: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        delegateBySig: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        delegates: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        getPastTotalSupply: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        getPastVotes: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        getVotes: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        numCheckpoints: "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        delegate:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        delegateBySig:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        delegates:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        getPastTotalSupply:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        getPastVotes:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        getVotes:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        numCheckpoints:
+          "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
         DEFAULT_ADMIN_ROLE: "@openzeppelin/contracts/access/AccessControl.sol",
         getRoleAdmin: "@openzeppelin/contracts/access/AccessControl.sol",
         grantRole: "@openzeppelin/contracts/access/AccessControl.sol",
@@ -2681,7 +2719,7 @@ const deployedContracts = {
       },
     },
     TokenizedBallot: {
-      address: "0x2Aaf4e167bd5e69215Fb52E201A7C611490C07Ca",
+      address: "0x5245f64BDb9C61E1BbEE06bf8EF6B5E6A27Ea267",
       abi: [
         {
           inputs: [
@@ -2840,7 +2878,7 @@ const deployedContracts = {
       inheritedFunctions: {},
     },
     YourContract: {
-      address: "0x560c621b2EDb46ded08BB562071A7b48dBc22b7C",
+      address: "0x116d098C5FB932d619bfB34Cd37328A069D57A20",
       abi: [
         {
           inputs: [

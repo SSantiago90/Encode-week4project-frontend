@@ -1,0 +1,12 @@
+deploying "YourContract" (tx: 0x2779aaa33903b363a69158e21c0c5ccf3c409c9a7d048b73b9fd10c4aa0bb925)...: 
+deployed at 0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9 with 533171 gas
+👋 Initial greeting: Building Unstoppable Apps!!!
+deploying "HelloWorld" (tx: 0x386fb3625558e0c464a36adfbf7673586de1adc6f52cdfc2ef611f5b8519b1f6)...: 
+deployed at 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9 with 283933 gas
+deploying "MyToken" (tx: 0xe1123843d4c8f8ce485bcb6a98b40e4d1c2f8c8727374f5816c423ca13c7acd9)...: 
+deployed at 0x5FC8d32690cc91D4c39d9d3abcBD16989F875707 with 2069155 gas
+👋 Token Name: "MyToken" Symbol: "MTK"
+deploying "TokenizedBallot" (tx: 0xc77abf9133594c7772af4e964e303632bb754f921dca537d22eb1b59e1bda3e1)...: 
+deployed at 0x0165878A594ca255338adfa4d48449f69242Eb8F with 470119 gas
+👋 Ballot uses tokenContract @ 0x5FC8d32690cc91D4c39d9d3abcBD16989F875707
+📝 Updated TypeScript contract definition file on ../nextjs/contracts/deployedContracts.ts
