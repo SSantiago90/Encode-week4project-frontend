@@ -5,7 +5,7 @@ function WalletInfo() {
   const { address, isConnecting, isDisconnected, chain } = useAccount();
   if (address)
     return (
-      <div className="my-5 ">
+      <div className="my-5">
         <h1 className="text-2xl font-semibold opacity-50 pt-3 uppercase text-left">Wallet Info</h1>
         <p>
           Your wallet address is {address} on the {chain?.name} network
