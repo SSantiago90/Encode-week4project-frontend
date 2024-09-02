@@ -35,7 +35,7 @@ function TokenSelfDelegate() {
   };
 
   return (
-    <div className="my-3 card w-96 bg-base-100 shadow-xl">
+    <div className="my-4 card w-96 bg-base-100 shadow-xl">
       <div className="card-body">
         <h2 className="card-title">Delegate Tokens for Voting Power</h2>
         <p className="text-sm opacity-85">
